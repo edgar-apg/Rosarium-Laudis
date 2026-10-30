@@ -26,7 +26,7 @@ Rosarium Laudis es una herramienta pastoral y devocional. Facilita el seguimient
 - Permite elegir qué jaculatorias incluir y si se desean rezar las letanías lauretanas.
 - Actualiza la secuencia en curso cuando se guardan cambios desde Configuración.
 - Guarda las preferencias en el almacenamiento local del navegador.
-- Presenta una pintura de la Virgen del Rosario y los santos, proporcionada para este proyecto.
+- Presenta una pintura de la Virgen del Rosario y los santos.
 - Utiliza una paleta oscura de inspiración dominicana, con negro, dorado y blanco, y tipografía Open Sans.
 
 ---
@@ -68,11 +68,11 @@ Las oraciones y textos se ofrecen para acompañar la oración personal. Se recom
 
 ---
 
-## Proyecto relacionado
+## Proyecto principal
 
-Rosarium Laudis forma parte de la inspiración y la identidad visual de **Ordo Laudis**. Consulta su README en GitHub:
+Rosarium Laudis forma parte de la inspiración y la identidad visual de **Lectio**:
 
-[Ordo Laudis — README](https://github.com/edgar-apg/OrdoLaudis-Pages#readme)
+[Lectio](https://lectio.mx/)
 
 ---
 
@@ -80,15 +80,3 @@ Rosarium Laudis forma parte de la inspiración y la identidad visual de **Ordo L
 
 ---
 
-## Publicar en GitHub Pages
-
-Para mantener Rosarium Laudis en un repositorio independiente:
-
-1. Crea en GitHub un repositorio público llamado **rosarium-laudis**. No marques la opción para añadir un README, porque este proyecto ya incluye uno.
-2. Descomprime el archivo del proyecto y carga en la raíz del repositorio todos sus archivos: `index.html`, `styles.css`, `app.js`, `favicon.svg`, `virgen-del-rosario.jpg` y `README.md`.
-3. Confirma la carga con un mensaje como **Publicar Rosarium Laudis**.
-4. En el repositorio, abre **Settings → Pages**.
-5. En **Build and deployment**, elige **Deploy from a branch**; selecciona la rama **main** y la carpeta **/(root)**, y guarda.
-6. Cuando GitHub Pages termine de publicar, la página estará disponible en `https://edgar-apg.github.io/rosarium-laudis/`.
-
-El icono de ayuda del sitio enlaza al README del repositorio `edgar-apg/rosarium-laudis`.
