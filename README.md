@@ -48,7 +48,7 @@ La selección automática usa la fecha del dispositivo. También se puede escoge
 
 El Rosario ocupa un lugar especial en la tradición de la Orden de Predicadores. Rosarium Laudis se inspira en esa herencia y en el lema **Laudare, Benedicere, Praedicare**: alabar, bendecir y predicar.
 
-La obra que acompaña la portada se identifica en el archivo recibido como *Virgen del Rosario y santos*, de Luca Giordano, siglo XVII, Nápoles.
+La obra que acompaña la portada se identifica como *Virgen del Rosario y santos*, de Luca Giordano, siglo XVII, Nápoles.
 
 ---
 
