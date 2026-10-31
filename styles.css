@@ -29,6 +29,17 @@ footer{display:flex;align-items:center;justify-content:center;gap:15px;flex-wrap
 .progress-meta #exit svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
 .progress-meta #exit:hover{color:#f1e4bd;transform:translateX(1px)}
 #start{border-radius:8px}
+.welcome #start{margin-top:23px}
+.welcome .supplication{margin-top:29px}
+.progress-controls .track{display:block;width:100%;height:22px;margin:0;padding:0;border:0;border-radius:999px;appearance:none;-webkit-appearance:none;background:transparent;cursor:pointer;touch-action:none}
+.progress-controls .track::-webkit-slider-runnable-track{height:2px;border-radius:999px;background:linear-gradient(to right,var(--gold) 0,var(--gold) var(--progress),#29251e var(--progress),#29251e 100%)}
+.progress-controls .track::-moz-range-track{height:2px;border-radius:999px;background:#29251e}
+.progress-controls .track::-moz-range-progress{height:2px;border-radius:999px;background:var(--gold)}
+.progress-controls .track::-webkit-slider-thumb{-webkit-appearance:none;width:12px;height:12px;margin-top:-5px;border:1px solid var(--gold);border-radius:50%;background:#15120d;box-shadow:0 0 0 3px #d3bd8326;transition:transform .2s ease,box-shadow .2s ease}
+.progress-controls .track::-moz-range-thumb{width:10px;height:10px;border:1px solid var(--gold);border-radius:50%;background:#15120d;box-shadow:0 0 0 3px #d3bd8326;transition:transform .2s ease,box-shadow .2s ease}
+.progress-controls .track:hover::-webkit-slider-thumb,.progress-controls .track:focus-visible::-webkit-slider-thumb{transform:scale(1.18);box-shadow:0 0 0 5px #d3bd8326}
+.progress-controls .track:hover::-moz-range-thumb,.progress-controls .track:focus-visible::-moz-range-thumb{transform:scale(1.18);box-shadow:0 0 0 5px #d3bd8326}
+#step-content{touch-action:pan-y}
 .footer-help{width:25px;height:25px;display:inline-grid;place-items:center;border:1px solid #66583d;border-radius:50%;color:var(--goldsoft);transition:color .25s ease,border-color .25s ease,background .25s ease,transform .25s ease}
 .footer-help svg{display:block;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .footer-help:hover{color:#10110f;background:var(--goldsoft);border-color:var(--goldsoft);transform:translateY(-1px)}
